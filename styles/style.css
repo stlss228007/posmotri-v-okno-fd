@@ -235,6 +235,7 @@ ol {
 
 .more-button {
   width: 390px;
+  line-height: 2;
 }
 
 .content__details {
@@ -330,14 +331,12 @@ ol {
 
 .content__video-card-description {
   font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 400;
   max-width: 100%;
   line-height: 16.2px;
   margin-top: 2px;
-  letter-spacing: 1px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  letter-spacing: 0%;
   position: relative;
   bottom: 6px;
 }
